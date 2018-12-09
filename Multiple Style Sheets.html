@@ -1,0 +1,22 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Multiple Style Sheets</title>
+        <link rel="stylesheet" type="text\css" href="multiple.css">
+        <style>
+        h1{
+            color:orange;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Multiple Style Sheets</h1>
+        <pre>If some properties have been defined for the same selector(element) in different style sheets, the value from the last read style sheet wil be used.
+
+            Assume that both internal and external styles having the <b>h1</b> attribute as same. Consider the following scenario,
+
+            If the internal style sheet is defined after the link to the external style sheet, the <b>h1</b> elements will be the "internal" attribute value.
+        </pre>
+
+    </body>
+</html>

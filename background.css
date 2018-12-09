@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+body{
+    background-color: bisque;
+}
+ul{
+    background-color: chocolate;
+}
+pre{
+    background-color:#A0B000;
+}
+li{
+    background-color: RGB(132,0,255);
+}
