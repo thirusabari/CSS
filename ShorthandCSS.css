@@ -1,0 +1,23 @@
+ul#four{
+    margin:25px 50px 75px 100px;
+    border:4px solid firebrick;
+}
+ul#three{
+margin:25px 50px 75px;
+border:4px solid hotpink;
+}
+ul#two{
+    margin:25px 50px;
+    border:4px solid lawngreen;
+}
+ul#one{
+    margin:25px;
+    border:4px solid seagreen;
+}
+ul#separate{
+    margin-top:20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left:80px;
+    border:6px solid gold;
+}

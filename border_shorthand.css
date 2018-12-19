@@ -1,0 +1,19 @@
+pre{
+    border:5px solid brown;
+}
+p#left{
+    border-left:7px dashed khaki;
+    background-color: aqua;
+}
+p#right{
+    border-right: 4px dotted navy;
+    background-color: darkcyan;
+}
+p#top{
+    border-top:4px groove sandybrown;
+    background-color: blanchedalmond;
+}
+p#bottom{
+    border-bottom: 4px solid chartreuse;
+    background-color: bisque;
+}

@@ -1,0 +1,15 @@
+#thin{
+    outline-color: blue;
+    outline-style: solid;
+    outline-width: thin;
+}
+#thick{
+    outline-color: brown;
+    outline-style: solid;
+    outline-width: thick;
+}
+#medium{
+    outline-color:hotpink;
+    outline-style: solid;
+    outline-width: medium;
+}

@@ -1,0 +1,19 @@
+#four{
+    border:2px solid hotpink;
+    padding:5px 10px 5px 10px;
+}
+#three{
+    border:2px solid darkblue;
+    padding: 10px 15px 10px;
+}
+#two{
+    border:2px solid seagreen;
+    padding: 15px 20px;
+}
+#one{
+    border:2px solid gold;
+    padding: 25px;
+}
+pre{
+    display: none;
+}

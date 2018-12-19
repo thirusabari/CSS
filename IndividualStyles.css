@@ -1,0 +1,29 @@
+h1{
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style: double;
+    border-left-style: groove;
+    border-width: 15px;
+    border-color:red greenyellow cyan blueviolet;
+    
+}
+pre{
+    border-style:dashed dotted solid double;
+    border-color:orange pink skyblue gold;
+    border-width: 10px;
+}
+p#in{
+    border-style:dotted solid dashed inset;
+    border-color:teal royalblue fuchsia olivedrab;
+    border-width: 5px;
+}
+p#out{
+    border-style:dashed dotted solid;
+    border-color:firebrick saddlebrown blueviolet;
+    border-width: 5px;
+}
+p#some{
+    border-style:solid dashed;
+    border-color: lightcoral aqua;
+    border-width: 5px;
+}

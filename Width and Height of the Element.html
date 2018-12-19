@@ -1,0 +1,33 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Width and Height of the Element</title>
+    </head>
+    <body>
+        <h1>Width and Height of the Element</h1>
+        <pre>In order to set the width and height of an element correctly in all browsers, you need to know how the box model works: 
+
+            <b>Important:</b>
+            When you set the width and height properties of an element with CSS, and just set the width and height of the <b>content area</b>. To calculate the full size of an element, you must also add padding, borders and margins. 
+
+            Assume we want to style a <b>div</b> element to have a total width of 350px.
+
+            For Example consider that,
+            <b>
+                div{
+                    width:320px;
+                    padding:10px;
+                    border:5px solid gray;
+                    maring:0;
+                }
+
+            </b>
+            Here is the math:
+            <b><i>320px(width)+20px(left +right padding)+10px(left and right border)+0px(left and right margin) = 350px</i></b>
+        </pre>
+        <b><p>Note:</p></b>
+        <p>The total element width is calculated like <b>= width+left padding+right padding+ left border+right border+ left margin + right margin</b></p>
+        <br>
+        <p>The total height of the element should be calculated like this = <b>= height+top padding+bottom padding+ top border+ bottom border + top margin+ bottom margin.</b></p>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+#dot{
+    outline-color:firebrick;
+    outline-style:dotted;
+    
+}
+li{
+    border:2px solid black;
+}
+#dash{
+    outline-color: blueviolet;
+    outline-style: dashed;
+}
+#solid{
+    outline-color:hotpink;
+    outline-style:solid;
+}
+#double{
+    outline-color:red;
+    outline-style:double;
+}
+#groove{
+    outline-color:aqua;
+    outline-style:groove;
+}
+#ridge{
+    outline-color:purple;
+    outline-style: ridge;
+}
+#inset{
+    outline-style:inset;
+    outline-color:chartreuse;
+
+}
+#outset{
+    outline-style:outset;
+    outline-color:brown;
+}
+#none{
+    outline-style:none;
+}
+#hidden{
+    outline-style:hidden;
+    outline-color:turquoise;
+}
