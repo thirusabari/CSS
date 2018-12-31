@@ -1,0 +1,62 @@
+#circle{
+    list-style-type: circle;
+    font-size: 30px;
+}
+#disc{
+    list-style-type: disc;
+    font-size: 20px;
+}
+#decimal{
+    list-style-type: decimal;
+    font-size: 20px;
+    
+}
+#armenian{
+    list-style-type: armenian;
+    font-size: 20px;
+    
+}
+#decimal-leading-zero{
+    list-style-type: decimal-leading-zero;
+    font-size: 20px;
+    
+}
+#georgian{
+    list-style-type: georgian;
+    font-size: 20px;
+}
+#loweralpha{
+    list-style-type: lower-alpha;
+    font-size: 20px;
+}
+#lowergreek{
+    list-style-type: lower-greek;
+    font-size: 20px;
+}
+#lowerlatin{
+    list-style-type: lower-latin;
+    font-size: 20px;
+    
+}
+#lowerroman{
+    list-style-type: lower-roman;
+    font-size: 20px;
+    
+}
+#square{
+    list-style-type: square;
+    font-size: 20px;
+}
+#upperalpha{
+list-style-type: upper-alpha;
+font-size: 20px;
+}
+#upperroman{
+    list-style-type: upper-roman;
+    font-size: 20px;
+}
+#upperlatin{
+    list-style-type: upper-latin;
+    font-size: 20px;
+}
+

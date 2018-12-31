@@ -1,0 +1,25 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Text Decoration</title>
+        <style>
+        pre{
+            font-size: 30px;
+        }
+        </style>
+    </head>
+    <body onload="add()">
+        <h1>Text Decoration</h1>
+        <pre id="decorate">The <b>text-decoration</b> property is used to set or remove decorations from text</pre>
+    </body>
+    <script>
+    function add(){
+    var d=document.getElementById("decorate");
+    d.style.textDecoration="underline";
+    setTimeout(function(){
+d.style.textDecoration="none";
+    },8000);
+}
+
+    </script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>The Float Property</title>
+        <style>
+        img{
+            float:right;
+            margin:0 0 10px 10px;
+            width:600px;
+            height: 400px;
+        }
+        </style>
+    </head>
+    <body onload="setTimeout(to,5000)">
+        <h1>The Float Property</h1>
+        <pre>In its simplest use, the <b>float</b> property can be used to wrap text around images.
+        
+        </pre>
+        <img src="AudiR8.jpg" id="im">
+    </body>
+    <script>
+    function to(){
+var im=document.getElementById("im");
+im.style.clear="right";
+    }
+    </script>
+</html>

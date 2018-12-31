@@ -1,0 +1,22 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Text Decoration --->Line Through</title>
+        <style>
+        #line{
+            font-size: 40px;
+        }
+        </style>
+    </head>
+    <body onload="li()">
+<h1>Line Through</h1>
+<pre id="line">The text Decoration is set to Line Through</pre>
+    </body>
+    <script>
+    function li(){
+        setTimeout(function(){
+            document.getElementById("line").style.textDecoration="line-through";
+        },7000);
+    }
+    </script>
+</html>

@@ -1,0 +1,12 @@
+#normal{
+    font-style: normal;
+    font-size: 20px;
+}
+#italic{
+    font-style: italic;
+    font-size: 20px;
+}
+#oblique{
+    font-style: oblique;
+    font-size: 20px;
+}

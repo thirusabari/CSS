@@ -1,0 +1,22 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Text Decoration Overline</title>
+        <style>
+        #pe{
+            font-size: 40px;
+        }
+        </style>
+    </head>
+    <body onload="over()">
+        <h1>OverLine</h1>
+        <p id="pe">Text Decoration is set to OverLine</p>
+    </body>
+    <script>
+    function over(){
+        setTimeout(function(){
+            document.getElementById("pe").style.textDecoration="overline";
+        },7000);
+    }
+    </script>
+</html>

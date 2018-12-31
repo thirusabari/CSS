@@ -1,0 +1,16 @@
+#left{
+    text-align: left;
+    
+}
+#right{
+    text-align: right;
+}
+#justify{
+    text-align: justify;
+}
+#center{
+    text-align: center;
+}
+#initial{
+    text-align: initial;
+}

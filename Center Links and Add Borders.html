@@ -1,0 +1,38 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Center Links and Add Borders</title>
+        <style>
+        h1{
+            display: none;
+        }
+        pre{
+            display: none;
+        }
+ul{
+    border:1px solid green;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+    border-bottom: 1px solid lightcoral;
+}
+li:last-child{
+    border-bottom: none;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Center Links and Add Borders</h1>
+        <pre>Add <b>text-align:center</b> to <b>li or a element</b> to center the links.
+        
+        Add the <b>border</b> property to <q>ul</q> add a border around the navbar. If you also want borders inside the navbar, add a <b>border-bottom</b> to all "li" elements, except for the last one:
+        </pre>
+        <ul>
+            <li><a href="default.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </body>
+</html>

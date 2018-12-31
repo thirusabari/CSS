@@ -1,0 +1,74 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Table Borders</title>
+        <style>
+        table,th,td{
+            border:2px solid blue;
+            border-collapse: collapse;
+        }
+        table{
+            overflow-x:auto;
+        }
+        th{
+            width: 50px;
+            text-align: left;
+            background-color: cornflowerblue;
+        }
+        td{
+            vertical-align: bottom;
+            height: 50px;
+        }
+        th,td{
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid darkgreen;
+        }
+        tr:hover{
+            background-color:lightcoral;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Table Borders</h1>
+        <pre>To specify table borders in CSS, use the <b>border</b> property.</pre>
+        <h2>Collapse Table Borders</h2>
+        <pre>The <b>border-collapse</b> property sets whether the table borders should be collapsed into a single border.</pre>
+        <h2>Table Width and Height</h2>
+        <pre>Width and Height of a table are defined by the <b>width</b> and height properties.</pre>
+        <br>
+        <h1>Horizontal Alignment</h1>
+        <pre>THe <b>text-align</b> property sets the Horizontal Alignment (like left, right or center) of the content in <b>th</b> or <b>tb</b>.
+        By Default, the content of the <b>th</b> elements are center aligned and the content of the <b>td</b> elements are left aligned.
+        </pre>
+        <br>
+        <h1>Vertical Alignment</h1>
+        <pre>The <b>vertical-align</b> property sets the vertical alignment (like top, bottom or middle) of the content in <b>th</b> or <b>td</b>.
+        By Default, the vertical alignment of the content in a table is middle(for both <b>th</b> and <b>td</b> elements).
+        </pre>
+        <h1>Table Padding</h1>
+        <pre>To control the space between the border and the content in a table, use the <b>padding</b> property on <b>td</b> and <b>th</b> elements.</pre>
+        <br>
+        <h1>Horizontal Dividers</h1>
+        <pre>Add the <b>border-bottom</b> property to <b>th</b> and <b>td</b> for horizontal dividers. </pre>
+        <br>
+        <h1>Hoverable Table</h1>
+        <pre>Use the <b>:hover</b> selector on <b>tr</b> to highlight table rows on mouse over.</pre>
+        <h1>Table Color</h1>
+        <pre>The example below specifies the background-color and text color of the <b>th</b> elements.</pre>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Relationship</th>
+            </tr>
+            <tr>
+                <td>Thirunavukkarasu</td>
+                <td>TS's Husband</td>
+            </tr>
+            <tr>
+                <td>TS</td>
+                <td>Thirunavukkarasu's Wife</td>
+            </tr>
+        </table>
+    </body>
+</html>

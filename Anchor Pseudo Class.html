@@ -1,0 +1,32 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Anchor Pseudo Class</title>
+        <style>
+        a:hover{
+            color:firebrick;
+        }
+        a:active{
+            color:violet;
+        }
+        a:visited{
+            color:greenyellow;
+        }
+        a:link{
+            color:darkorange;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Anchor Pseudo Class</h1>
+        <pre>Links can be displayed in different ways: 
+
+            <b>Note:</b>
+            <b>a:hover</b> MUST come after <b>a:link</b> and <b>a:visited</b> in the CSS definition in order to be effective! 
+            <b>a:active</b> MUST come after <b>a:hover</b> in the CSS definition in order to the effective! Pseudo-class names are not case sensitive.
+        </pre>
+        <br>
+        <br>
+        <a href="https:\\www.google.co.in" alt="Google Search" target="blank">Open_Google</a>
+    </body>
+</html>

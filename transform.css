@@ -1,0 +1,12 @@
+#upper{
+    text-transform: uppercase;
+    font-size:20px;
+}
+#lower{
+    text-transform: lowercase;
+    font-size: 20px;
+}
+#capital{
+    text-transform: capitalize;
+    font-size: 20px;
+}
